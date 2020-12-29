@@ -1,0 +1,48 @@
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px; height: 0;
+}
+
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.RobotoReg{
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.RobotoBold{
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.port{
+    margin: 2rem 0;
+}
+
+.content{
+    margin: 4rem 0;
+}
+
+.img-content{
+    margin: 4rem 0;
+
+}
+
+.imgthumb{
+    margin: 3rem 0;
+    transition: 0.3s;
+}
+
+.imgthumb:hover{
+    transform: scale(1.02);
+}
